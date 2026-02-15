@@ -1,10 +1,9 @@
-# 🏠 House Price Predictor
-### Algorithm: Simple Linear Regression
+# 🚢 Titanic Survival Logic
+### Algorithm: Logistic Regression
 
 ## 📝 Description
-A model developed to predict the market price of a house based on its area. This project explores the mathematical relationship $y = mx + c$.
+A classification project to predict passenger survival on the Titanic. This required cleaning raw data and converting categorical variables into numerical values.
 
-## 📊 Key Results
-* **Features:** Square Footage (Area).
-* **Target:** Price.
-* **Equation:** Calculated using `model.coef_` and `model.intercept_`.
+## 🛠️ Data Preprocessing
+* Handled missing values in the dataset.
+* Used Logistic Regression to find the decision boundary between "Survived" and "Not Survived."
